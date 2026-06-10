@@ -103,12 +103,12 @@ Expected flow:
 Frontend: Next.js (React) → Backend: FastAPI → Workflow Engine → Services (AI Parser, Approval Service, DB)
 
 ```mermaid
-flowchart LR
-  A[Next.js UI] --> B[FastAPI API]
-  B --> C[Workflow Engine]
-  C --> D[AI Parser (Gemini)]
-  C --> E[Approval Service]
-  C --> F[PostgreSQL]
+graph LR
+    A[Next.js UI] --> B[FastAPI API]
+    B --> C[Workflow Engine]
+    C --> D[AI Parser<br/>Gemini]
+    C --> E[Approval Service]
+    C --> F[(PostgreSQL)]
 ```
 
 ## Technology Stack
