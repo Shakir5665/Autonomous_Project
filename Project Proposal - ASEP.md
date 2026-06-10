@@ -110,7 +110,20 @@ graph LR
     C --> E[Approval Service]
     C --> F[(PostgreSQL)]
 ```
+Data Flow:
 
+    1. User interacts with Next.js frontend
+
+    2. FastAPI receives REST requests
+
+    3. Workflow Engine orchestrates execution
+
+    4. AI Parser converts SOPs to workflows
+
+    5. Approval Service manages human-in-the-loop
+
+    6. PostgreSQL persists all state
+    
 ## Technology Stack
 
 - Frontend: React, Next.js, Tailwind, React Flow
