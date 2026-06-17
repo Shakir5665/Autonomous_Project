@@ -1,0 +1,42 @@
+# Java
+*.class
+*.jar
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Docker
+docker-data/
+
+# Temporary
+tmp/
+temp/
+
+# Database
+*.db
