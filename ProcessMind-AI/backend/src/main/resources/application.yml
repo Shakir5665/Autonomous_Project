@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: processmind-api
+  profiles:
+    active: dev
