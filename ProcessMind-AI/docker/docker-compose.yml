@@ -1,9 +1,8 @@
-version: '3.8'
 
 services:
   postgres:
-    image: postgres:17-alpine
-    container_name: processmind-postgres
+    image: processmind-db:17-alpine
+    container_name: processmind-postgres-db
     environment:
       POSTGRES_DB: processmind_db
       POSTGRES_USER: postgres
@@ -24,6 +23,7 @@ services:
     build:
       context: ../backend
       dockerfile: Dockerfile
+    image: processmind-api:latest 
     container_name: processmind-backend
     environment:
       SPRING_PROFILES_ACTIVE: dev
