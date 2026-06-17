@@ -2,4 +2,13 @@ spring:
   application:
     name: processmind-api
   profiles:
-    active: dev
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+
+server:
+  port: ${SERVER_PORT:8080}
+
+# Custom application properties
+app:
+  name: ProcessMind API
+  version: 1.0.0
+  environment: ${APP_ENV:development}
