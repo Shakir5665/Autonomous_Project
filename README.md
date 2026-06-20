@@ -156,7 +156,7 @@ git push origin feature/my-feature
 
 This project is proprietary. Copyright © 2026 ProcessMind AI. All rights reserved.
 
-For questions or support: support@processmind.ai
+For questions or support: mohamedsakir3456@gmail.com
 
 ---
 
